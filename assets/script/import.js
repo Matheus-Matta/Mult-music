@@ -13,7 +13,7 @@ import { loading , concluded } from "./main/spinners.js"  ;
 import { loadcat , concludcat } from "./main/spinners.js" ;
 
 export async function activeWeb(){
-   loading();
+   await loading();
    resposivo();
    inputClean();
    gradient();

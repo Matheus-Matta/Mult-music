@@ -2,10 +2,10 @@
 export async function loading(){
     const width = window.innerWidth;
     let section;
-        if(width < 1080){
-            section = document.querySelector("section")
-        } else {
-            section = document.querySelector("#box-music-recommended")
+    if(width < 1080){
+        section = document.querySelector("section")
+    } else {
+        section = document.querySelector("#box-music-recommended")
     }
     section.classList.remove("loading-concluded")
     section.className = "loading-pending"

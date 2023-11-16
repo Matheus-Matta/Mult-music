@@ -49,7 +49,8 @@ body section .activate-profile:hover{
     border-top-color: #cbcbcb;
     animation: spin 1s linear infinite;
     position: absolute;
-    top: 0;
+    top: 10px;
+    left: calc(50vw - 25px);
     opacity: 0.6 !important;
 }
 @keyframes spin {
