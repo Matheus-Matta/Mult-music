@@ -13,18 +13,18 @@ export  function carouselArtist(){
     const btnArrow = document.querySelectorAll("#box-btn-arrow")
     btnArrow[0].addEventListener("click", ()=>{
       const box = document.querySelector("#box-mov")
-      if(mov < limite){
-        mov += 200;
-        box.style.marginLeft = `-${mov}px`;
-      }
-    })
-    btnArrow[1].addEventListener("click", ()=>{
-      const box = document.querySelector("#box-mov")
       if(mov <= 0){
         mov = 0;
         itens.style.marginLeft = `${mov}`;
       } else {
         mov = mov - 200;
+        box.style.marginLeft = `-${mov}px`;
+      }
+    })
+    btnArrow[1].addEventListener("click", ()=>{
+      const box = document.querySelector("#box-mov")   
+      if(mov < limite){
+        mov += 200;
         box.style.marginLeft = `-${mov}px`;
       }
     })

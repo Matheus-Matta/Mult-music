@@ -91,6 +91,7 @@ section .loading-concluded *{
     z-index: 50 !important;
     position: fixed;
     bottom: -5%;
+    left: 20px;
 }
 
 #icon-delete{
