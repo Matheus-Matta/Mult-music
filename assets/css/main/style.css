@@ -87,6 +87,9 @@ section .loading-concluded *{
     position: relative;
     width: auto;
     height: auto;
+    z-index: 50 !important;
+    position: fixed;
+    bottom: -5%;
 }
 
 #icon-delete{

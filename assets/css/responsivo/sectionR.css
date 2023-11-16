@@ -131,6 +131,13 @@
     height: 25px;
     margin-left: 4px;
     }
+    #playerSong{
+        width: 40vw;
+    }
+    .box-player{
+       left: 30vw;
+    }
+    
  }
  @media screen and (min-width: 350px) and (max-width: 750px){
     .body-resposiv section{
@@ -227,6 +234,15 @@
     height: 25px;
     margin-left: 4px;
     }
+    #playerSong{
+        width: 80vw;
+        
+    }
+    .box-player{
+       left: 10vw;
+      
+    }
+    
  } 
   
   

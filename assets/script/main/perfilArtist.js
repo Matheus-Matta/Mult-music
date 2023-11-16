@@ -16,7 +16,6 @@ if( width > 500 && width < 620){
     tam = 45
 } else if(width <= 500){
     tam = 20
-    console.log(width)
 }
 
  const btnPlay = document.querySelectorAll(".activate-profile")
@@ -75,7 +74,7 @@ if( width > 500 && width < 620){
         divSongs.className = "other-songs"
         section.appendChild(divSongs)
         const songs = document.querySelector(".other-songs")
-        for(var i = 0; i < 10;i++){
+        for(var i = 0; i < data.tracks.tracks.length ;i++){
         let nameMusic = data.tracks.tracks[i].name
         if(nameMusic.length > tam){
             nameMusic =  nameMusic.slice(0,tam) + "...";
@@ -151,7 +150,7 @@ if( width > 500 && width < 620){
     enableEvents();
     await albumContent();
     playerSong();
-
-    })// fim click
- })// fim foreach
+    
+})// fim click
+})// fim foreach
 }// fim função
