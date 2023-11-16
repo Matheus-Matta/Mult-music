@@ -1,0 +1,26 @@
+
+:root{
+    --iconColor: #858585;
+    --titleColor:#858585;
+    --bgColor:#101010;
+    --subTitleColor:#f1f1f1;
+}
+
+.box-title h1{
+    color:  var(--titleColor);
+    font-size: 18px;
+    margin-left: 5px;
+}
+svg{
+    fill: var(--iconColor);
+}
+body{
+    background-color: var(--bgColor);
+}
+.subTitle{
+  color: var(subTitleColor) !important;
+}
+.textInfo{
+    color: var(subTitleColor) !important;
+    opacity: 0.5  !important;
+}

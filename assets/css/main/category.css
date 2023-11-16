@@ -1,0 +1,59 @@
+section
+#box-music-recommended
+#box-category{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    margin: 10px 0 ;
+    position: relative;
+}
+section
+#box-music-recommended
+#box-category
+#category{
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  gap: 10px;
+  margin: 0 2.5%;
+}
+section
+#box-music-recommended
+#box-category
+#category
+.category-item {
+    min-width: 150px;
+    height: 150px;
+    background-color: rgb(74, 74, 74);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: top center;
+    background-size: cover;
+} 
+section
+#box-music-recommended
+#box-category
+#category
+.category-item:hover{
+  transform: scale(1.02);
+  opacity: 0.8;
+  cursor: pointer;
+  
+}
+section
+#box-music-recommended
+#box-category
+#category
+.category-item
+.title-category{
+  display: none;
+}
+section
+#box-music-recommended
+#box-category
+.box-title{
+  margin-bottom: 10px;
+}

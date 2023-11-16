@@ -1,0 +1,119 @@
+.box-perfil-category{
+   min-width: 750px;
+   height: 200px;
+   display: flex;
+   cursor: default;
+  
+}
+.img-category{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(81, 81, 81);
+    box-shadow: 0 10px 10px 0 rgba(0, 0,0,0.3);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.info-category{
+    width: 400px;
+    height: 200px;
+    word-wrap: break-word;
+    margin-left: 10px;
+}
+.info-category h1{
+    color: var(--subTitleColor);
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.info-category p{
+    color: var(--iconColor);
+    font-size: 18px;
+}
+.box-music-category{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5px;
+    width: 750px;
+    margin-top: 20px;
+    cursor: default;
+   
+}
+
+.info-items-category{
+    display: flex;
+    align-items: center;
+}
+.music-category{
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    background-color: #20202079;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.music-category:hover{
+    background-color: #2e2e2e79;
+    transform: scale(1.02);
+}
+.img-music-category{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-music-category{
+    margin-left: 10px;
+}
+.info-music-category h3{
+    color: var(--subTitleColor);   
+}
+.info-music-category p{
+    color: var(--iconColor);
+    margin-right: 5px;
+}
+.music-category h1 {
+    margin-right: 10px;
+    font-size: 16px;
+    color: var(--iconColor);
+}
+.music-category .more-and-duration{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.music-category .more-and-duration p {
+    margin-right: 10px;
+    color: var(--iconColor);
+
+}
+.music-category .more-and-duration svg{
+    cursor: pointer;
+}
+.info-category h2{
+    color:  var(--subTitleColor);
+    font-size: 52px;
+    margin: 20px 10px 5px 10px;
+
+}
+.info-category h3{
+    color: var(--iconColor);
+    font-size: 42px;
+    margin: 0 10px;
+}
+.img-music-category p {
+    color:  var(--subTitleColor);
+    font-size: 18px;
+    opacity: 0.8;
+}
+.box-artists{
+    display: flex;
+    align-items: center;
+}

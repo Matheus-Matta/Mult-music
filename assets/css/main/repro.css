@@ -1,0 +1,10 @@
+.box-repro{
+    display: none;
+    width: 20%;
+    height: 50px;
+    background-color: blue;
+    position: fixed;
+    border-radius: 10px 10px 0 0;
+    left: 40%;
+    bottom: 0;
+}

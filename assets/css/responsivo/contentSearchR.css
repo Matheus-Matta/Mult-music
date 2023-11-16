@@ -1,0 +1,66 @@
+@media screen and (min-width: 550px ) and (max-width: 800px) {
+    .box-searchContent{
+        max-width: 550px !important;
+        margin: 0 auto !important;
+        margin-top: 300px !important;
+        margin-bottom: 10px !important;
+    }
+    .contentArtist{
+        grid-template-columns: 1fr !important;
+    
+    }
+    .musics-artist{
+        display: none !important;
+    }
+    .other-songs{
+        margin: 0 auto !important;
+        grid-template-columns: repeat(1,1fr) !important;
+        width: 550px !important;
+        margin-top: 10px !important;
+        margin-bottom: 30px !important;
+
+    }
+    
+}
+@media screen and (min-width: 350px ) and (max-width: 550px) {
+    .box-searchContent{
+        max-width: 350px !important;
+        max-height: 250px !important;
+
+        margin: 0 auto !important;
+        margin-top: 250px !important;
+        margin-bottom: 10px !important;
+    }
+    .contentArtist{
+        grid-template-columns: 1fr !important;
+    
+    }
+    .musics-artist{
+        display: none !important;
+    }
+    .other-songs{
+        margin: 0 auto !important;
+        grid-template-columns: repeat(1,1fr) !important;
+        width: 350px !important;
+        margin-top: 10px !important;
+        margin-bottom: 30px !important;
+
+    }
+    .artist-img{
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .artist-info h2{
+        font-size: 24px !important;
+    }
+    .artist-info p{
+        font-size: 12px !important;  
+        margin-top: 2px !important;
+
+    }
+    .box-music-searched{
+        margin-top: 10px !important;
+       
+    }
+    
+}

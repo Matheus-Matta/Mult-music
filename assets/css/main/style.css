@@ -1,0 +1,109 @@
+/*
+back: #101010
+back-claro: #212121
+azul:#082032
+verde: #1e5128
+vermelho: #4c0027
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 95vh;
+    overflow: hidden;
+    position: fixed;
+    cursor: default;
+
+}
+svg{
+    width: 20px; 
+    height: 20px;
+}
+.box-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#blur{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    z-index: 29;
+    display: none;
+}
+body section .activate-profile:hover{
+    text-decoration: underline !important;
+    color: rgba(18, 128, 18, 0.909)!important;
+}
+.loading{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 4px solid var(--iconColor); /* Cor da borda superior com transparência */
+    border-top-color: #cbcbcb;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 0;
+    opacity: 0.6 !important;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.loading-pending *{
+    opacity: 0;
+}
+section .loading-concluded *{
+    opacity: 1 !important;
+}
+.loading-cat{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 4px solid var(--iconColor); /* Cor da borda superior com transparência */
+    border-top-color: #cbcbcb;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 25px);
+    opacity: 0.4 !important;
+}
+.loading-pending-cat *{
+    opacity: 0;
+}
+.inativo{
+    pointer-events: none !important;
+    cursor: not-allowed !important;
+    opacity: 0.3 !important;
+    transition: 0.3s;
+}
+.box-player{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#icon-delete{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 20;
+    display: none;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+#icon-delete svg{
+    fill: #212121;
+    cursor: pointer;
+    width: 20px !important;
+    height: 20px !important;
+}

@@ -1,0 +1,119 @@
+.box-searchContent{
+    width: 750px;
+    background-color: #1b1b1b79;
+    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.contentArtist{
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    height: 200px;
+
+}
+.content-info{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 15px 5px 5px;
+
+}
+
+.artist-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0,0,0.3);
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.artist-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.artist-info h2{
+ color: var(--subTitleColor);
+ font-size: 28px;
+ margin-left: 10px;
+ cursor: pointer;
+
+}
+.artist-info p{
+    margin-top: 5px;
+    margin-left: 22px;
+    color: var(--subTitleColor);
+    font-size: 18px;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.musics-artist{
+    width: 200px;
+    margin-left: 25px;
+    grid-row: span 3;
+    margin-top: 25px;
+}
+.musics-artist li{
+     color: var(--subTitleColor);
+     font-size: 12px;
+     padding: 5px 0;
+     padding-left: 5px;
+     border-radius: 5px;
+}
+.musics-artist li:hover{
+    background-color: rgba(240, 248, 255, 0.1);
+    cursor: pointer;
+}
+.box-music-searched{
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.059);
+}
+.box-music-searched:hover{
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.1);
+
+}
+.music-searched{
+    display: flex;
+}
+.music-searched .music-img{
+   width: 50px;
+   height: 50px;
+   border-radius: 10px;
+   background-position: center center;
+   background-size: cover;
+}
+.music-searched .music-info{
+    margin-left: 10px;
+}
+.music-searched .music-info h2{
+    color: var(--subTitleColor);
+    font-size: 18px;
+    font-weight: 500;
+}
+.music-searched .music-info p{
+    color: var(--iconColor);
+    font-size: 16px;
+}
+.music-duration{
+    display: flex;
+}
+.music-duration p{
+    margin-right: 10px;
+    color: var(--iconColor);
+}
+
+

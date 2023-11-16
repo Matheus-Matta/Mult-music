@@ -1,0 +1,99 @@
+section
+#box-playlist-recommended
+.playlists-rec{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(50, 50, 50, 0.324);
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0,0,0.3);
+
+
+}
+section
+#box-playlist-recommended
+.playlists-rec:hover{
+    transform: scale(1.05);
+    background-color: rgba(50, 50, 50, 0.781);
+    transition: 0.3s;
+}
+section
+#box-playlist-recommended
+.playlists-rec
+.box-image-playlist-rec{
+    width: 35%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(0, 43, 43);
+}
+section
+#box-playlist-recommended
+.playlists-rec
+.info-rec{
+  height: 90%;
+  width: 60%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section
+#box-playlist-recommended
+.playlists-rec
+.info-rec
+.name-and-musics
+.name-rec{
+    font-size: 120%;
+    font-weight: 500;
+}section
+#box-playlist-recommended
+.playlists-rec
+.info-rec
+.name-and-musics
+.name-usuario{
+    opacity: 0.5;
+}
+section
+#box-playlist-recommended
+.playlists-rec
+.info-rec
+.name-and-musics
+.musics-rec{
+    opacity: 0.5;
+}
+section
+#box-playlist-recommended
+.playlists-rec
+.info-rec
+.status-rec{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-rec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-rec p{
+ opacity: 0.5;
+ font-size: 100%;
+ margin-left: 2px;
+}
+.flex-rec svg{
+    width: 25%;
+    height: 25%;
+    margin-bottom: 1px;
+}
+#box-playlist-recommended #box-title h1 + svg{
+    transform: scaleX(-1);
+}
+#play-rec-active,#play-rec-close{
+    display: none;
+}

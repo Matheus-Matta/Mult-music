@@ -1,0 +1,13 @@
+@import "./assets/css/main/style.css";
+@import "./assets/css/main/header.css";
+@import "./assets/css/main/section.css";
+@import "./assets/css/main/repro.css";
+@import "./assets/css/responsivo/importResponsivo.css";
+@import "./assets/css/main/root.css";
+@import "./assets/css/contentSearch/importContent.css";
+@import "./assets/css/main/modalAdd.css";
+@import "./assets/css/perfilArtist/import-p-artist.css";
+@import "./assets/css/contentCategory/importCategory.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
